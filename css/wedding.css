@@ -181,7 +181,7 @@ li {
   text-shadow: #FFF 1px 0 10px;
   margin-bottom: 15px;
   background-color: #f8f8f8;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   
   padding: 10px 10px;
   position: relative;

@@ -14,7 +14,8 @@ body {
   /*scroll-padding-top: 50px;*/
   -webkit-text-size-adjust:100%;
   color: var(--color-4);
-  background-image: linear-gradient(white,white,var(--color-5),var(--color-5));
+  /*background-image: linear-gradient(white,white,var(--color-5),var(--color-5));*/
+  background-color: var(--color-5);
 }
 
 html {
@@ -113,12 +114,21 @@ li {
   font-weight: normal;
 }
 
+
+.plainBg {
+  background-color: var(--color-0);
+  width: 100%;
+  height: 100%;  
+  text-align: center;
+}
+
 .section {
   position:relative;
   width: 100%;
   /*min-height: 60vh;*/
   text-align: center;
 }
+
 
 .section2 {
   background-color: var(--color-0);
@@ -324,14 +334,14 @@ li {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  background: var(--color-1);
+  background: var(--color-5);
   top: -50px;
   transition: top 0.3s;
   z-index: 1;
 }
 
 .sticky a {
-  color: white;
+  color: black;
 }
 .sticky + .content {
   padding-top: 60px;
@@ -390,6 +400,21 @@ li {
     left: 70%;
     bottom: 30%;
   }
+}
+
+#favs {
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+    width: 600px;
+    overflow: hidden;
+}
+#food {
+    width: 300px;
+    float:left;
+}
+#ttd {
+    overflow: hidden;
 }
 
 

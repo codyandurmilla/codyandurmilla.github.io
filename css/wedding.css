@@ -27,7 +27,7 @@ html {
 h1 { 
   font-size: 54px;
   color: var(--color-1);
-  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-family: Lucida Sans Typewriter,Courier New,Courier,Lucida Typewriter,monospace;
   margin-top: 4px;
   margin-bottom: 4px;
 }
@@ -35,7 +35,7 @@ h1 {
 /*for titles*/
 h2 {
   font-size: 42px;
-  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-family: 'Noto Sans', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding-top: 12px;
@@ -57,7 +57,7 @@ h4 {
 /*for date*/
 h5 {
   font-size: 18px;
-  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-family: Lucida Sans Typewriter,Courier New,Courier,Lucida Typewriter,monospace;
   font-weight: bold;
   color: var(--color-1); 
   background-color: var(--color-5);
@@ -406,16 +406,20 @@ li {
     margin-left: auto;
     margin-right: auto;
 	text-align: center;
-    width: 600px;
-    overflow: hidden;
+    /*width: 50%;
+    overflow: hidden;*/
 }
-#food {
-    width: 300px;
-    float:left;
+#food, #ttd {
+    display:inline-block;
+    vertical-align:top;
+    /*white-space: nowrap;*/
+	text-align: center;
+    /*margin-left: auto;*/
+    min-width: 25%;
+    /*float:left;
+    overflow: hidden;*/
 }
-#ttd {
-    overflow: hidden;
-}
+
 
 
 
